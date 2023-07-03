@@ -87,6 +87,12 @@ Navbar
    margin: 0px auto 20px auto;
 }
 
+#mu-header .mu-header-area .mu-header-top-left .mu-top-email{
+    padding: 5px;
+}
+
+
+
 
 @media (max-width : 768px) {
   .carousel-inner .carousel-caption h2{
@@ -106,6 +112,15 @@ Navbar
   .google-map{
     width : 100%;
     width : 100%;
+  }
+
+  #mu-header .mu-header-area .mu-header-top-left .mu-top-email{
+    font-size: 12px;
+    margin : 8px;
+  }
+
+  #mu-header .mu-header-area .mu-header-top-left .mu-top-phone{
+     display: none;
   }
 
 }
