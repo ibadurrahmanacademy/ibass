@@ -109,6 +109,24 @@ Navbar
     font-size: 13px;
   }
 
+  .carousel-inner .carousel-item{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel-inner .carousel-item::before{
+  content: '';
+  background: rgba(12, 11, 10, 0.5);
+  position: absolute;
+  top : 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
   .google-map{
     width : 100%;
     width : 100%;
